@@ -50,7 +50,7 @@ config:
   php: '7.3'
   composer_version: '2.0.7'
   via: apache:2.4
-  webroot: .
+  webroot: ./public
   database: mysql:5.7
   cache: none
   xdebug: false
